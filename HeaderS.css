@@ -1,0 +1,31 @@
+.header{
+    display: inline-flex;
+    width: 50%;
+    border-radius: 5px;
+
+}
+.header h3{
+     font-size: 25px;
+     margin-left: 10px;
+}
+.name{
+        width: 34%;
+        border-style: none none solid solid;
+    border-color: #960eb1;
+    background-color: #FA79B1;
+    border-radius: 3px;
+}
+.date{
+    width: 34%;
+    border-style: none none solid solid;
+  background-color: #E362DA;
+  border-color: #960eb1;
+
+}
+.amount{
+    width: 34%;
+   border-style: none none solid solid;
+  background-color: #DB6DFD;
+  border-color: #960eb1;
+  border-radius: 3px;
+}

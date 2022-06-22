@@ -1,0 +1,28 @@
+.header{
+   display: flex;
+   align-items: center;  
+  margin: 5px;
+
+}
+
+.nameC{
+    width: 34%;
+    border-style: none none solid solid;
+    border-color: #960eb1;
+    background-color: #fac9de;
+    border-radius: 3px;
+}
+.dateC{
+  width: 34%;
+  border-style: none none solid solid;
+  background-color: #e79de2;
+  border-color: #960eb1;
+
+}
+.amountC{
+  width: 34%;
+  border-style: none none solid solid;
+  background-color: #d18fe5;
+  border-color: #960eb1;
+  border-radius: 3px;
+}

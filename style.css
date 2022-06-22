@@ -1,0 +1,132 @@
+.container form  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+.container .output{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    margin: 20px;
+    font-size: 40px;
+    
+}
+
+.container p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3DADAD;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+
+form .divName{
+     display: flex;
+     align-items: center;
+     margin: 5px;
+     height: 30px;
+     width: 40%;
+    
+}
+
+#labelName{
+        margin: 0 5px 0 70px; 
+        font-size: 25px ;
+        font-style:normal;
+    }
+#nameInput{
+       
+       width: 55%;
+       height: 20px;
+       border-color:#aac4c7 ;
+       border-style: solid;
+       border-radius: 5px;
+       background-color: #e9fafc;
+    }
+
+form .divDate-Amount{
+    display:inline-flex;
+    align-items: center;
+     margin: 5px;
+     height: 30px;
+     width: 40%;
+    
+}
+#labelDate{
+        margin-left: 70px;
+        font-size: 25px ;
+        font-style:normal;
+        
+    }
+#nameDate{
+        padding: 3px 5px;
+        width: 92px;
+        margin: 5px;
+        border-color:#aac4c7 ;
+        border-style: solid;
+        font-size: 15px;
+         border-radius: 5px;
+         background-color: #e9fafc;
+    }
+#labelAmount{
+        font-size: 25px ;
+        font-style:normal;
+        margin-left: 5px;
+
+    }
+#nameNumber{
+        width: 100px;
+        height: 20px;
+       border-color:#aac4c7 ;
+        margin: 5px;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: #e9fafc;
+    }
+
+
+.submitBut {
+    background-color: #8e44ad;
+    border: 2px solid #8e44ad;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    transition: 0.5s ease
+}
+
+.submitBut:hover{
+  background-color: #5A44AD;
+  border: 2px solid #5A44AD;
+   
+}
+.deleteBut{
+    width: 20%;
+    background-color: #8e44ad;
+    border: 2px solid #8e44ad;
+    border-radius: 4px;
+    color: #fff;
+    display:list-item;
+    cursor: pointer;
+    transition: 0.5s ease
+
+}
+.deleteBut:hover{
+  background-color: #5A44AD;
+  border: 2px solid #5A44AD;
+   
+}
